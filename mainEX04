@@ -1,0 +1,13 @@
+package SOI4;
+
+public class main {
+    public static void main(String[] args) {
+        int distanciaMaxima = 100; 
+        int tamanhoMaximoPulo = 10; 
+
+        for (int i = 1; i <= 5; i++) {
+            main sapo = new main(i, distanciaMax, tamanhoMaxPulo);
+            sapo.start();
+        }
+    }
+}
